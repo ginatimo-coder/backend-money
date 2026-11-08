@@ -1,19 +1,23 @@
 {
-  "name": "saas-finance-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "saas-finance-web",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^18.0.9",
-    "express": "^5.3.0",
-    "pg": "^8.23.1"
+    "cors": "^2.8.5",
+    "next": "14.x.x", // ou votre version exacte
+    "react": "18.x.x",
+    "react-dom": "18.x.x"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
   }
 }
